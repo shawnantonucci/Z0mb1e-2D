@@ -1,0 +1,1 @@
+//if (follow = obj_player) follow = obj_zombie; else follow = obj_player;
