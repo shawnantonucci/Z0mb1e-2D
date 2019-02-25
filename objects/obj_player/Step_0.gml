@@ -140,3 +140,8 @@ if(input_up and input_left)
 {
 	bullet_direction = -6; 
 }
+
+if (hp <= 0)
+{
+	game_restart();
+}
