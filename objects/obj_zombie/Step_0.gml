@@ -11,11 +11,11 @@ switch (state) {
     break;
 	
 	case states.chase:
-    if(distance_to_object(obj_player) > distanceTrigger + 10){
+    if(distance_to_object(obj_player) > distanceTrigger + 200){
         state = states.idle;
     }
     
-    speed = 1;
+    speed = 1.2;
     direction = point_direction(x,y,obj_player.x,obj_player.y);
     
     actionDur ++;
